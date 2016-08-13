@@ -5,9 +5,7 @@ public class IntroLightFade : MonoBehaviour
 {
 
     private float intensityBefore;
-#pragma warning disable CS0108 // Member hides inherited member; missing new keyword
     public Light light;
-#pragma warning restore CS0108 // Member hides inherited member; missing new keyword
     public int fadeDurationInFrames;
     public int fadeStartsAfterFrames;
 
